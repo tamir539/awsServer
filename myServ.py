@@ -2,10 +2,10 @@ import socket
 import random
 from datetime import datetime
 
-
+port = input('enter port')
 # create the server
 server_socket = socket.socket()
-server_socket.bind(('0.0.0.0', 8451))
+server_socket.bind(('0.0.0.0', int(port)))
 server_socket.listen(2)
 
 while True:
