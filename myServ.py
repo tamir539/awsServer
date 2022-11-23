@@ -47,3 +47,4 @@ while True:
                 break
     print(f'{client_addres[0]} - disconected')
     client_socket.close()
+    server_socket.close()
