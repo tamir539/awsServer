@@ -5,7 +5,7 @@ from datetime import datetime
 
 # create the server
 server_socket = socket.socket()
-server_socket.bind(('0.0.0.0', 1450))
+server_socket.bind(('0.0.0.0', 8451))
 server_socket.listen(2)
 
 while True:
