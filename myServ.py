@@ -16,6 +16,7 @@ while True:
         try:
             # try to recive massage from the client
             data = client_socket.recv(4).decode()
+            print(data)
         except Exception as e:
             break
         else:
